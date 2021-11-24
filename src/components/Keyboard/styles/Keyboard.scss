@@ -1,0 +1,199 @@
+.control-panel-wrapper {
+  &__keyboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    // height: 100%;
+    flex-grow: 1;
+    background: rgb(55,55,55);
+    background: linear-gradient(
+1deg, rgba(55,55,55,1) 0%, rgba(25,25,25,1) 90%);
+  }
+}
+
+.keyboard-control-panel-wrapper {
+  &__body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1190px;
+    height: 479px;
+    border-radius: 20px;
+    // background-color: #f3c83b;
+    background: rgb(243,200,59);
+    background: linear-gradient(
+0deg, rgba(243,200,59,1) 0%, rgba(243,200,59,1) 24%, rgba(232,162,48,1) 100%);
+    padding: 30px 20px 20px;
+    font-family: "Russo One", sans-serif;
+    // box-shadow: 0px 1px 0 3px #c8a83b;
+    box-shadow: 0px 1px 0 3px #4a3e16;
+  }
+}
+.block-body-keyboard-control-panel-wrapper__row {
+  > :first-child {
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+  > :last-child {
+    margin-right: 0px;
+  }
+  // width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.body-keyboard-control-panel-wrapper {
+  &__row {
+    display: flex;
+  }
+  &__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // align-items: center;
+    align-items: flex-start;
+  }
+  &__block-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+}
+
+.row-block-body-keyboard-control-panel-wrapper{
+  &__section {
+    display: flex;
+    margin: 0 15px;
+  }
+}
+
+.row-block-2-body-keyboard-control-panel-wrapper{
+  &__section {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+.keyboard-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 14px;
+  margin: 6px 5px 6px;
+  user-select: none;
+  color: cornflowerblue;
+  background-color: #212121;
+  border-radius: 4px;
+  text-shadow: 0 0 20px #fff, 0 0 30px #0033ff, 0 0 40px #0033ff;
+  box-shadow: 0px 4px 0 1px #383838, 4px 5px 0 0px #383838,
+    -4px 5px 0 0px #383838;
+    transition: .2s ease-in;
+}
+
+.keyboard-btn:hover{
+  box-shadow: 0px -1px 0 1px #383838, 3px 3px 0 0px #383838, -3px 3px 0 0px #383838;
+  background-color: lighten(#212121, 3%);
+  text-shadow: 0 0 16px #fff, 0 0 30px #0033ff, 0 0 40px #0033ff;
+  transition: .2s ease-in;
+}
+
+.keyboard-btn:active{
+  box-shadow: 0px 0px 0 0px #383838;
+  background-color: darken(#212121, 2%);
+  text-shadow: 0 0 13px #fff, 0 0 30px #0033ff, 0 0 40px #0033ff;
+  transition: .2s ease-in;
+}
+
+.keyboard-btn--active{
+  box-shadow: 0px 0px 0 0px #383838 !important;
+  background-color: darken(#212121, 2%) !important;
+  text-shadow: 0 0 13px #fff, 0 0 30px #0033ff, 0 0 40px #0033ff !important;
+}
+
+.keyboard-btn--disabled{
+  background-color: lighten(#212121, 5%);
+}
+
+.keyboard-btn--reserved{
+  background-color: darken(#212121, 3%) !important;
+}
+
+
+
+.simple-key {
+  width: 54px;
+  height: 100%;
+  max-height: 57px;
+}
+
+.backspace-key {
+  width: 99px;
+  height: 100%;
+  max-height: 57px;
+}
+
+.tab-key {
+  width: 87px;
+  height: 100%;
+  max-height: 57px;
+}
+
+.slash-key {
+  width: 66px;
+  height: 100%;
+  max-height: 57px;
+}
+
+.capslock-key {
+  width: 97px;
+  height: 100%;
+  max-height: 57px;
+}
+
+.enter-key {
+  width: 120px;
+  height: 100%;
+  max-height: 57px;
+}
+
+.shift-key {
+  width: 140.5px;
+  height: 100%;
+  max-height: 57px;
+}
+
+.space-key {
+  width: 385px;
+  height: 100%;
+  max-height: 57px;
+}
+
+.lower-level-key {
+  width: 68px;
+  height: 100%;
+  max-height: 57px;
+}
+
+.keyboard-logo{
+  width: 192px;
+  padding: 1px;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: cornflowerblue;
+  // text-shadow: 0 0 15px #fff, 0 0 20px #fff, 0 0 30px #0033ff, 0 0 40px #0033ff;
+  text-shadow: 0 0 15px #fff, 0 0 20px #fff, 0 0 13px #0033ff, 0 0 3px #0033ff; 
+}
+
+.mt-15{
+  margin-top: 15px;
+}

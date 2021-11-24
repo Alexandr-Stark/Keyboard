@@ -1,0 +1,3 @@
+export const ADD_KEY_TO_GROUP = 'ADD_KEY_TO_GROUP';
+export const TOGGLE_TO_CREATE_GROUP = 'TOGGLE_TO_CREATE_GROUP';
+export const ADD_GROUP = 'ADD_GROUP';
